@@ -21,7 +21,7 @@ function criptografar(){
     res.style.textAlign = 'left'
     res.style.alignItems = 'flex-start';
     res.innerHTML = '<div id = "resposta"><p>'+resultado+'</p></div>'
-    Copiar.style.display = 'block'
+    Copiar.style.display = 'inline'
 }
 function descriptografar(){
     let input = document.querySelector('#texto')
@@ -39,7 +39,7 @@ function descriptografar(){
     res.style.textAlign = 'left'
     res.style.alignItems = 'flex-start';
     res.innerHTML = '<div id = "resposta"><p>'+resultado+'</p></div>'
-    Copiar.style.display = 'block'
+    Copiar.style.display = 'inline'
 }
 function copiar(){
 
